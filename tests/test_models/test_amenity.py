@@ -7,7 +7,7 @@ from models.engine.file_storage import FileStorage
 import os
 
 
-class testAmenity(unittest.TestCase):
+class TestAmenity(unittest.TestCase):
     """test Amenity class"""
 
     def setUp(self):
