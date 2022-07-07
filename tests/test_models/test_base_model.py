@@ -26,16 +26,16 @@ class TestBaseModel(unittest.TestCase):
         m.name = "Holberton"
         m.number = 89
         b = m.to_dict()
-        test_dict = ["id,
+        test_dict = ["id",
                      "created_at",
                      "updated_at",
                      "name",
                      "number",
-                     "__class__""]
+                     "__class__"]
         self.assertCountEqual(b.keys(), test_dict)
         self.assertEqual(b['__class__'], 'BaseModel')
         self.asserEqual(b['name'], "Holberton")
-        self.assertEqual(b['number'] 89)
+        self.assertEqual(b['number'], 89)
 
     def test_time(self):
         """test  if times are of datetime instance"""
