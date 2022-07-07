@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""unittest for amenity"""
+"""unittest for city"""
 import unittest
 from models.base_model import BaseModel
 from models.city import City
