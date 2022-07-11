@@ -34,9 +34,8 @@ section.filters button:hover {
 .locations h4, .amenities h4 {
     font-weight: 400;
     font-size: 14px;
-    margin: 0 0 0 0;
+    margin: auto;
 }
-
 .locations {
     border-right: 1px solid #DDDDDD;
 }
